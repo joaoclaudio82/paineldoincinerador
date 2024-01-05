@@ -1,0 +1,51 @@
+/*************/
+/* Cabeçalho */
+/*************/
+.main-header {
+    border: 0 !important;   
+}
+
+/* Cabeçalho para a skin 'light' */
+.main-header.navbar.navbar-expand.navbar-light.navbar-white {
+    background-color: #e68301;
+}
+
+/**********/
+/* Rodapé */
+/**********/
+.main-footer {
+    color: #ffffff !important;
+}
+.main-footer img {
+    max-height: 30px;
+}
+
+.main-footer ul > li{
+    display:inline-block;
+    margin-right: 1rem;
+}
+
+.main-footer ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+/**************/
+/* Cabeçalhos */
+/**************/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+/*********************/
+/* Divisão de seções */
+/*********************/
+.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #e68301;
+    opacity: 1;
+}
